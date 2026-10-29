@@ -4,8 +4,8 @@
    TODO 3: header och footer √
    TODO 4: nav ul (ta bort punkter) √
    TODO 5: article (kort) √
-   TODO 6: main (centrerat, max-bredd)
-   TODO 7: .knapp
+   TODO 6: main (centrerat, max-bredd) √
+   TODO 7: .knapp √
 */
 /* Räknar in padding och border i storleken (bredd/höjd) för alla boxar */
 *,
@@ -48,4 +48,12 @@ main {
   max-width: 1100px;
   margin: 0 auto; /* Centrerar main i mitten av sidan */
   padding: 24px;
+}
+.knapp {
+  display: inline-block;
+  background-color: #8c1010;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 6px;
 }

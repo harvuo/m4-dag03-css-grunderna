@@ -3,7 +3,7 @@
    TODO 2: body √
    TODO 3: header och footer √
    TODO 4: nav ul (ta bort punkter) √
-   TODO 5: article (kort)
+   TODO 5: article (kort) √
    TODO 6: main (centrerat, max-bredd)
    TODO 7: .knapp
 */
@@ -34,4 +34,13 @@ nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+article {
+  background-color: #ffffff;
+  padding: 16px;
+  margin-bottom: 16px;
+  border: 1px solid #e3d5c3;
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
 }

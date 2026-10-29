@@ -7,6 +7,16 @@
    TODO 6: main (centrerat, max-bredd)
    TODO 7: .knapp
 */
+/* Räknar in padding och border i storleken (bredd/höjd) för alla boxar */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* Ta bort den inbyggda marginalen */
 body {
-  background-color: purple;
+  margin: 0;
+}
+body {
+  background-color: #fffaf3;
 }
